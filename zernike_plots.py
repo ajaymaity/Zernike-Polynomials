@@ -6,7 +6,7 @@ import numpy as np
 import time
 
 # Make data.
-r = np.linspace(0, 1.25, 50)
+r = np.linspace(0, 1, 50)
 p = np.linspace(0, 2*np.pi, 50)
 R, P = np.meshgrid(r, p)
 X, Y = R * np.cos(P), R * np.sin(P)
